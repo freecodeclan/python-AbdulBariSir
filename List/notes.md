@@ -37,3 +37,10 @@ List is hetrogenous ordered collection of objects and allow duplicate values. Li
 **9. reverse() :** The reverse() method reverses the sorting order of the elements.
 
     Syntax : list.reverse() 
+
+# List Comprehension 
+List comprehension offers a shorter syntax when you want to create a new list based on the values of an existing list.
+
+**split() Method :** The split method convert string into List.
+
+    Syntax : list.split()
