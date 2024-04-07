@@ -34,6 +34,6 @@ List is hetrogenous ordered collection of objects and allow duplicate values. Li
 
     Syntax : list.sort(reverse = True|False, key=myFunc)
 
-**reverse() :** The reverse() method reverses the sorting order of the elements.
+**9. reverse() :** The reverse() method reverses the sorting order of the elements.
 
     Syntax : list.reverse() 
