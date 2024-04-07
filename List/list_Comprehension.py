@@ -21,6 +21,6 @@ print(newList)
 print()
 
 data = input('Enter your names: ')
-data1 = data.split()
+data1 = data.split()    # split() method convert string into list
 print(data1)
 
