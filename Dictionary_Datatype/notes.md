@@ -31,3 +31,27 @@ Dictionaries are used to store data values in key:value pairs. A dictionary is a
     x = thisdict.values()
 
 **5. Get Items -** The items( ) method will return each item in a dictionary, as tuples in a list.
+
+# Update Dictionary :-
+The update() method will update the dictionary with the items from the given argument. If the item does not exist, the item will be added. The argument must be a dictionary, or an iterable object with key:value pairs.
+
+    thisdict = {
+        "brand": "Ford",
+        "model": "Mustang",
+        "year": 1964
+    }
+
+    thisdict.update({"year": 2020})
+
+# Adding Items in Dictionary :-
+Adding an item to the dictionary is done by using a new index key and assigning a value to it:
+
+    thisdict = {
+        "brand": "Ford",
+        "model": "Mustang",
+        "year": 1964
+    }
+
+    thisdict["color"] = "red"
+    
+    print(thisdict)
