@@ -22,8 +22,12 @@ print(f'The difference b/w A and B is {C}')
 
 print()
 
- # Symentric_Difference Method
-C = A.symmetric_difference(B)
+ # Symmetric_Difference Method
+C = A ^ B
 print(f'The symentric_difference b/w A and B is {C}') 
+
+print()
+
+
 
 
