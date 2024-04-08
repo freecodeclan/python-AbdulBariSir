@@ -55,3 +55,61 @@ Adding an item to the dictionary is done by using a new index key and assigning 
     thisdict["color"] = "red"
     
     print(thisdict)
+
+# Removing Dictionary Items :-
+There are several methods to remove items from a dictionary:
+
+**1. pop( ) Method -** The pop( ) method removes the item with the specified key name:
+
+    thisdict = {
+        "brand": "Ford",
+        "model": "Mustang",
+        "year": 1964
+    }
+    thisdict.pop("model")
+    
+    print(thisdict)
+
+**2. popitem( ) Method -** The popitem( ) method removes the last inserted item (in versions before 3.7, a random item is removed instead):
+
+    thisdict = {
+        "brand": "Ford",
+        "model": "Mustang",
+        "year": 1964
+    }
+    thisdict.popitem()
+    
+    print(thisdict)
+
+**3. del keyword -** The del keyword removes the item with the specified key name:
+
+    thisdict = {
+        "brand": "Ford",
+        "model": "Mustang",
+        "year": 1964
+    }
+
+    del thisdict["model"]
+    
+    print(thisdict)
+
+**The del keyword can also delete the dictionary completely:**
+
+    thisdict = {
+        "brand": "Ford",
+        "model": "Mustang",
+        "year": 1964
+    }
+    del thisdict
+    print(thisdict) #this will cause an error because "thisdict" no longer exists.
+
+**4. clear( ) Method -** The clear() method empties the dictionary:
+
+    thisdict = {
+        "brand": "Ford",
+        "model": "Mustang",
+        "year": 1964
+    }
+    thisdict.clear()
+    
+    print(thisdict)
