@@ -37,3 +37,10 @@
     A = {1,2,3,4}
     B = {3,4,5,6}
     C = A ^ B   # This stands for A.symmetric_difference(B)
+
+**5. issubset() -** The issubset() method returns True if all items in the set exists in the specified set, otherwise it returns False. As a shortcut, we can use the <= operator instead, see example below.
+
+**6. issuperset() -** The issuperset() method returns True if all items in the specified set exists in the original set, otherwise it returns False. As a shortcut, we can use the >= operator instead, see example below.
+
+**7. isdisjoint() -** The isdisjoint() method returns True if none of the items are present in both sets, otherwise it returns False.
+
