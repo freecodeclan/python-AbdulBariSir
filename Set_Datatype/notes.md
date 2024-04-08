@@ -44,3 +44,15 @@
 
 **7. isdisjoint() -** The isdisjoint() method returns True if none of the items are present in both sets, otherwise it returns False.
 
+**8. add() -** The add() method adds an element to the set. If the element already exists, the add() method does not add the element.
+
+    Syntax - set.add(elmnt)
+
+**9. discard() -** The discard() method removes the specified item from the set. This method is different from the remove() method, because the remove() method will raise an error if the specified item does not exist, and the discard() method will not. 
+
+    Syntax - set.discard(value)
+
+**10. pop() -** The pop() method removes a random item from the set. This method returns the removed value.
+
+    Syntax - set.pop()
+
