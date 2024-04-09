@@ -52,3 +52,11 @@ print()
 # Now removing last inserted item of Dictionary
 car_Name.popitem()
 print(car_Name)
+
+
+# Using zip() Method to make key : value pair
+L1 = ['a', 'b', 'c']
+L2 = ['apple', 'ball', 'cat']
+
+dict_New = dict(zip(L1,L2))
+print(dict_New)
