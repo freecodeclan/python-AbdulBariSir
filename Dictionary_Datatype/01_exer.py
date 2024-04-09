@@ -41,3 +41,14 @@ print()
 x = car_Company.items()
 print(f'The items in dictionary are as follow {x}')
 
+print()
+
+# Adding items to Dictionary
+car_Name['LandRover'] = 'Metallic Black'
+car_Name.update({'Defender': 'Off-white', 'Lexus': 'Grey', 'Ferrari': 'BloodRed'})  # Adding multiple items in Dictionary
+print(car_Name)
+
+print()
+# Now removing last inserted item of Dictionary
+car_Name.popitem()
+print(car_Name)

@@ -113,3 +113,32 @@ There are several methods to remove items from a dictionary:
     thisdict.clear()
     
     print(thisdict)
+
+# Copy Dictionary
+We cannot copy a dictionary simply by typing dict2 = dict1, because: dict2 will only be a reference to dict1, and changes made in dict1 will automatically also be made in dict2.
+
+There are two ways to make a copy and they are as follow :
+
+**1. copy( ) Method -** Making copy of a dictionary with the copyt( ) method.
+
+    thisdict = {
+        "brand": "Ford",
+        "model": "Mustang",
+        "year": 1964
+    }
+
+    mydict = thisdict.copy()   # Need to cxreate variable to store original dictionary
+    
+    print(mydict)
+
+**2. dict( ) function -** Making a copy of a dictionary with the help of built-in fuction of python.
+
+    thisdict = {
+        "brand": "Ford",
+        "model": "Mustang",
+        "year": 1964
+    }
+
+    mydict = dict(thisdict)
+    
+    print(mydict)
