@@ -60,3 +60,14 @@ L2 = ['apple', 'ball', 'cat']
 
 dict_New = dict(zip(L1,L2))
 print(dict_New)
+
+print()
+
+# Using enumerate() function --> Enumeration gives numbers to the items
+L1 = ['A', 'B', 'C']
+
+for i in enumerate(L1):
+    print(i)
+
+dict4 = dict(enumerate(L1)) # converting tuple created by enumerating method into dictionary
+print(dict4)
