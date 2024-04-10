@@ -34,3 +34,22 @@ The syntax to declare function is :-
 
     net = net_sal(deduction=2000, baisc=6000, allowance=8000)   # Keyword Argument
     print('The net salary is :', net)
+
+**🔶 Variable Length Argument -**  Variable-length arguments refer to a feature that allows a function to accept a variable number of arguments in Python.
+
+Two types of variable length arguments :
+
+**🔸Non-Keyworded Arguments** (***args) -**  (*args) allows you to create functions that can take an unlimited number of arguments without needing to explicitly name each one.
+
+    def fun1 (*args):     
+        print(type(args), args)
+
+    fun1()
+    fun1(20.5,'Harsh',69,80)
+    fun1(1,2,3,4,5,6,7)
+
+Here we can pass function without any parameters, with any type of parameters and with more than one parameters.
+
+**🔸 Keyworded Arguments** (****kwargs) -** 
+
+
