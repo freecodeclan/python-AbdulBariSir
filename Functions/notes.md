@@ -50,6 +50,25 @@ Two types of variable length arguments :
 
 Here we can pass function without any parameters, with any type of parameters and with more than one parameters.
 
-**🔸 Keyworded Arguments** (****kwargs) -** 
+**🔶 Unpacking Arguments -** Unpacking arguments refers to the process of passing multiple arguments to a function using an iterable (like a list or tuple) or a mapping (like a dictionary). 
+There are two main ways to achieve argument unpacking:
+
+**🔸'*' Operator -** This method is used to unpack elements of an iterable (like a list or tuple) as separate arguments to a function.
+
+    def fun2 (a,b,c,d):
+        print(a,b,c,d)
+
+    list1 = [1,2,3,4]
+
+    fun2(*list1)
+
+🔸 '**' **Operator -** This method is used to unpack key-value pairs of a dictionary as keyword arguments to a function.
+
+    def example_function(a, b, c):
+        print(f'a: {a}, b: {b}, c: {c}')
+
+    kwargs = {'a': 1, 'b': 2, 'c': 3}
+
+    example_function(**kwargs)
 
 
