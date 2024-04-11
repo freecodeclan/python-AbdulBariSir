@@ -188,3 +188,17 @@ Legal values:
 'n' - Number format
 
 '%' - Percentage format
+
+**🔸 frozenset( ) -** The frozenset() function returns an unchangeable frozenset object (which is like a set object, only unchangeable).
+
+    mylist = ['apple', 'banana', 'cherry']
+    
+    x = frozenset(mylist)
+
+    print(x)
+
+    frozenset({'apple', 'cherry', 'banana'})
+
+
+
+ 
