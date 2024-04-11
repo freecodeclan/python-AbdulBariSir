@@ -101,3 +101,90 @@ The difference between **bytes()** and **bytearray()** is that bytes() returns a
 **🔸 dir( ) -** The dir() function returns all properties and methods of the specified object, without the values.
 
 This function will return all the properties and methods, even built-in properties which are default for all object.
+
+**🔸 enumerate( ) -** The enumerate() function takes a collection (e.g. a tuple) and returns it as an enumerate object. The enumerate() function adds a counter as the key of the enumerate object.
+
+    x = ['apple', 'banana', 'cherry']
+    
+    y = enumerate(x)
+
+    print(tuple(y))
+
+    ((0, 'apple'), (1, 'banana'), (2, 'cherry'))
+
+
+**🔸 filter( ) -** The filter() function returns an iterator where the items are filtered through a function to test if the item is accepted or not.
+
+   ages = [5, 12, 17, 18, 24, 32]
+
+    def myFunc(x):
+        if x < 18:
+        return False
+        else:
+        return True
+
+    adults = filter(myFunc, ages)
+
+    for x in adults:
+        print(x,end = ' ') 
+
+    18 24 32 
+
+**🔸 format( ) -** The format() function formats a specified value into a specified format.
+
+    x = 10
+
+    print(format(x, 'b'))
+
+    1010
+
+
+The format you want to format the value into.
+
+Legal values:
+
+'<' - Left aligns the result (within the available space)
+
+'>' - Right aligns the result (within the available space)
+
+'^' - Center aligns the result (within the available space)
+
+'=' - Places the sign to the left most position
+
+'+' - Use a plus sign to indicate if the result is positive or negative
+
+'-' - Use a minus sign for negative values only
+
+' ' - Use a leading space for positive numbers
+
+',' - Use a comma as a thousand separator
+
+'_' - Use a underscore as a thousand separator
+
+'b' - Binary format
+
+'c' - Converts the value into the corresponding unicode character
+
+'d' - Decimal format
+
+'e' - Scientific format, with a lower case e
+
+'E' - Scientific format, with an upper case E
+
+'f' - Fix point number format
+
+'F' - Fix point number format, upper case
+
+'g' - General format
+
+'G' - General format (using a upper case E for scientific notations)
+
+'o' - Octal format
+
+'x' - Hex format, lower case
+
+'X' - Hex format, upper case
+
+'n' - Number format
+
+'%' - Percentage format
