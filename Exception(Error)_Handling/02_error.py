@@ -6,8 +6,6 @@ def divide (a,b):
         return c
     else:
         raise ZeroDivisionError
-    
-
 
 try:
     a = int(input('Enter first number: '))
