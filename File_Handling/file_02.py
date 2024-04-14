@@ -6,6 +6,7 @@ file.write('I am on trial phase\n')
 file.close()
 
 # Checking the status of file
+
 print(file.name)    # used to check the name of the file 
 print(file.mode)    # used to check the mode of the file
 print(file.closed)  # # used to check the status of the file is opened or closed and it return boolean value
@@ -16,6 +17,7 @@ file.write('Welcome back again\n')  # adding content into existing file again
 file.write('I am in append phase\n')
 
 print(file.closed)
+
 
 file.close()        # closing file again
 

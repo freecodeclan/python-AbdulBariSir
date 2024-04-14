@@ -14,3 +14,10 @@ There are four different methods (modes) for opening a file:
 **"w" - Write -** Opens a file for writing, creates the file if it does not exist
 
 **"x" - Create -** Creates the specified file, returns an error if the file exists
+
+**"w+" - Write and Read -** This mode opens the file for both reading and writing. The text is overwritten and deleted from an existing file. The start of the file is where the handle is located.
+
+**"a+" - Append and Read -** Using this method, you can read and write in the file. If the file doesn't already exist, one gets created. The handle is set at the end of the file. The newly written text will be added at the end, following the previously written data.
+
+**"r+" - Read and Write -**  This method opens the file for both reading and writing. The start of the file is where the handle is located. If the file does not exist, an I/O error gets raised.
+
