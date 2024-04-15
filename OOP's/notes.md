@@ -7,7 +7,7 @@ The core OOP's principles are :
 
 **2. Objects -**
 
-**3. Inheritance**
+**3. Inheritance** simply means borrowing or inherit the features from existing class. The class that derives or borrow properties is called the derived class or child class and the class from which the properties are being derived is called the base class or parent class.
 
 **4. Encapsulation**  means combining all the related things together and wrapping them into the single capsule or box. 
 
