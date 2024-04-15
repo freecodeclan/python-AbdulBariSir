@@ -20,3 +20,4 @@ print(c1.volume())
 
 c2 = Cuboid(20,10,5)
 print(c2.volume())
+print(c2.lid_Area())
