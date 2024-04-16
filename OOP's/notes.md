@@ -27,4 +27,6 @@ The core OOP's principles are :
 
     In Python, built-in classes are named in lower case, but user-defined classes are named in Camel or Snake case, with the first letter capitalized.
 
+    The term self is the reference to the current object. When we use the term self in Python class methods, it's like saying "this object" or "the object itself."
+
 
