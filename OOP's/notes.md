@@ -54,4 +54,5 @@ The core OOP's principles are :
 
     🔸Setter(Mutator) :- A setter is a method used to modify the value of an attribute in an object. It allows you to change the value of a private attribute while performing certain checks or operations if needed.
 
-
+# Inheritance
+A class's ability to inherit methods and/or characteristics from another class is known as inheritance. The subclass or child class is the class that borrows. The superclass or parent class is the class from which methods and/or attributes are inherited.
