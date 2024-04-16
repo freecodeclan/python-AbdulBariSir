@@ -29,4 +29,20 @@ The core OOP's principles are :
 
     The term self is the reference to the current object. When we use the term self in Python class methods, it's like saying "this object" or "the object itself."
 
+**Class Variable -** A class variable is a variable that is shared by all instances of a class. It is declared outside of any method in the class definition. Class variables are also known as static variables.
 
+    class Rectangle:
+
+    count = 0       # Class Variable
+
+    def __init__(self, length, breadth):
+        self.length = length
+        self.breadth = breadth
+
+        Rectangle.count += 1    # Accessing Class Variable
+    
+    @classmethod
+    def count_Rectangle(cls):
+        print(cls.count)
+
+**Class Method -** A class method is a method that is associated with a class, rather than with any particular instance of the class. Class methods are also known as static methods.
