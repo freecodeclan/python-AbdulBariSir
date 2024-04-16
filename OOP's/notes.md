@@ -45,4 +45,13 @@ The core OOP's principles are :
     def count_Rectangle(cls):
         print(cls.count)
 
-**Class Method -** A class method is a method that is associated with a class, rather than with any particular instance of the class. Class methods are also known as static methods.
+**👍Class Method -** A class method is a method that is associated with a class, rather than with any particular instance of the class. Class methods are also known as static methods.
+
+**👍Accessors and Mutators** are commonly  referred to as **getters and setters**.  They are methods used to access and modify the values of attributes (variables) of an object, especially when those attributes are declared as private (using a single leading underscore _ convention).
+
+    🔸Getter(Accessor) :- A getter is a method used to retrieve the value of an attribute from an object. It allows you to access the value of a private attribute without directly accessing it from outside the class. 
+
+
+    🔸Setter(Mutator) :- A setter is a method used to modify the value of an attribute in an object. It allows you to change the value of a private attribute while performing certain checks or operations if needed.
+
+
