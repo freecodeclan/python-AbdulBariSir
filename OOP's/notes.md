@@ -65,4 +65,21 @@ A class's ability to inherit methods and/or characteristics from another class i
     class Cuboid(Rectangle):
         def __init__(self, l, b, h):
             self.heigth = h
-            super().__init__(l, b)
+            super().__init__(l, b)  # super() keyword is used to inherit the properties of parent class
+
+**👍__str__** method is used to define how an object should be represented as a string. When you print an object or convert it to a string (for example, by using the str() function), Python looks for the __str__ method in the object's class.
+
+    class Person:
+
+        def __init__(self, fname, lname):
+            self.firstname = fname
+            self.lastame = lname
+
+        def printname(self):
+            print(f'My name is {self.firstname} {self.lastame}')
+
+        def __str__(self):
+            return (f'My name is {self.firstname} {self.lastame}')
+
+    person1 = Person('Harsh', 'Mehra')
+    print(person1)
