@@ -56,3 +56,13 @@ The core OOP's principles are :
 
 # Inheritance
 A class's ability to inherit methods and/or characteristics from another class is known as inheritance. The subclass or child class is the class that borrows. The superclass or parent class is the class from which methods and/or attributes are inherited.
+
+    class Rectangle:
+        def __init__(self, l, b):
+            self.length = l
+            self.breadth = b
+
+    class Cuboid(Rectangle):
+        def __init__(self, h):
+            self.heigth = h
+            super().__init__(l, b)
