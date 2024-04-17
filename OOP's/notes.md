@@ -63,6 +63,6 @@ A class's ability to inherit methods and/or characteristics from another class i
             self.breadth = b
 
     class Cuboid(Rectangle):
-        def __init__(self, h):
+        def __init__(self, l, b, h):
             self.heigth = h
             super().__init__(l, b)
