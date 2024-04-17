@@ -29,7 +29,7 @@ class Cuboid(Rectagle):
     
     def __init__(self, l, b, h):
         self.height = h
-        super().__init__(l, b)      # By using super() keyword only we can inherit properties from parent class
+        super().__init__(l, b)      # By using super() keyword only we can call parent class constructor 
 
     def get_length(self):
         return super().get_length()
