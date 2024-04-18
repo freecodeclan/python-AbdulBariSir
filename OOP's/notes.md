@@ -83,3 +83,44 @@ A class's ability to inherit methods and/or characteristics from another class i
 
     person1 = Person('Harsh', 'Mehra')
     print(person1)
+
+# Polmorphism
+Polymorphism means one name and different actions. The word "polymorphism" means "many forms", and in programming it refers to methods/functions/operators with the same name that can be executed on many objects or classes.  
+
+Polymorphism is often used in Class methods, where we can have multiple classes with the same method name.
+
+**👍 Duck Typing -** It is a concept that focuses on an object's behavior rather than its type. It's based on the idea that "if it looks like a duck and quacks like a duck, it must be a duck." In Python, this means that you can use any object that implements the necessary methods or attributes required by your code, without worrying about its specific type.
+
+    def PetLover(pet):
+        pet.talk()
+        if hasattr(pet,'walk'):     
+            pet.walk()
+
+    class Duck:
+
+        def talk(self):
+            print('Duck is Talking')
+
+        def walk(self):
+            print('Duck is walking')
+
+    class Dog:
+        def talk(self):
+            print('Dog is talking')
+
+
+    dk = Duck()     # Duck object created
+    PetLover(dk)    # Calling Petrover function and passing dk object of Duck() as parameter
+
+    print()
+
+    dg = Dog()
+    PetLover(dg)
+
+**Method Overloading -** Method Overloading is used to achieve polymorphism. Two or more methods have the same name but different numbers of parameters or different types of parameters, or both. These methods are called overloaded methods and this is called method overloading. 
+
+Python does not support method overloading by default. But there are different ways to achieve method overloading in Python. The problem with method overloading in Python is that we may overload the methods but can only use the latest defined method. 
+
+
+
+
